@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #555;
+    padding: 10px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav a, nav button {
+    color: white;
+    text-decoration: none;
+}
+
+#passwordInput {
+    margin-top: 5px;
+}
+
+#infoOutput {
+    margin: 20px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+img {
+    border-radius: 10px;
+}
